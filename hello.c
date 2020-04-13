@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-int main(void)
+extern void swap(int *x, int *y);
+
+int main()
 {
-	printf("Hello.world\n");
+printf("Hello.world\n");
 
 	return 0;
 }
