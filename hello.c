@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-extern void swap(int *x, int *y);
+extern void swap(int* x, int* y)
+{
+	int temp = *x;
+	*x = *y;
+	*y = temp;
 
+	return;
+}
 int main()
 {
 printf("Hello.world\n");
